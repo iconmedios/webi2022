@@ -1,0 +1,89 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-74d2c32d.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-611fba4d.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/acerca.svelte",
+      "src/routes/contacto.svelte",
+      "src/routes/index.svelte",
+      "src/routes/landing.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-f4179a27.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-611fba4d.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-e5fba7ca.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-6c097e28.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-611fba4d.js"
+    ]
+  },
+  "src/routes/acerca.svelte": {
+    "file": "pages/acerca.svelte-4138c294.js",
+    "src": "src/routes/acerca.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-611fba4d.js"
+    ],
+    "css": [
+      "assets/pages/acerca.svelte-b4e3bea7.css"
+    ]
+  },
+  "src/routes/contacto.svelte": {
+    "file": "pages/contacto.svelte-0013426d.js",
+    "src": "src/routes/contacto.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-611fba4d.js",
+      "_TitlePage-b0f7c47d.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-5947472c.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-611fba4d.js",
+      "_TitlePage-b0f7c47d.js"
+    ]
+  },
+  "src/routes/landing.svelte": {
+    "file": "pages/landing.svelte-dfd56556.js",
+    "src": "src/routes/landing.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-611fba4d.js"
+    ]
+  },
+  "_index-611fba4d.js": {
+    "file": "chunks/index-611fba4d.js"
+  },
+  "_TitlePage-b0f7c47d.js": {
+    "file": "chunks/TitlePage-b0f7c47d.js",
+    "imports": [
+      "_index-611fba4d.js"
+    ]
+  }
+}
