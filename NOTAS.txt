@@ -1,0 +1,21 @@
+https://tailwindcss.com/docs/guides/sveltekit
+https://linu.us/sveltekit-with-tailwindcss-v3
+https://www.swyx.io/svelte_tailwind_setup
+
+INSTALAR (DOS OPCIONES)
+
+npm i tailwindcss postcss cssnano autoprefixer svelte-preprocess @tailwindcss/forms @tailwindcss/typography -D
+npm i -D tailwindcss postcss autoprefixer svelte-preprocess
+npm i @sveltejs/adapter-static
+
+CREAR ARCHIVOS DE CONFIGURACIÓN
+tailwind.config.cjs y postcss.config.cjs
+
+npx tailwindcss init tailwind.config.cjs -p
+
+CONFIGURACIONES 
+
+svelte.config.js
+
+
+CREAR ARCHIVO app.css
