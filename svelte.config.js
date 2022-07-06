@@ -9,17 +9,20 @@ const config = {
             postcss: true, // <- Set this to enable PostCSS
         }),
     ],
-    kit: {
+	routes: (filepath) => !/(?:(?:^_|\/_)|(?:^\.|\/\.)(?!well-known))/.test(filepath),
+	kit: {
 		//target:'#svelte',
 		adapter: adapter({ 
 			out: 'build',
 			routes: 'build',
 			assets: 'build',
-			fallback: null
+			fallback: '200.html',
+			prerender : { default: false}
 		
-		}),
-		prerender : { default: true}
+		})
+		
 	}
+    
 }
 
 export default config
