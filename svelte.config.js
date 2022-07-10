@@ -16,11 +16,10 @@ const config = {
 			out: 'build',
 			routes: 'build',
 			assets: 'build',
-			fallback: '200.html',
-			prerender : { default: false}
+			fallback: '200.html'
 		
-		})
-		
+		}),
+		prerender : { default: true}
 	}
     
 }
